@@ -5,6 +5,8 @@ import java.util.List;
 public class Set{
   private int score;
   private int highScore;
+  private Board board;
+  private Deck deck;
   
   public Set() {
     
@@ -15,8 +17,9 @@ public class Set{
     //determines whether the three cards make a set
   }
   
-  public highScore(int score, int highScore) {
-    return (Math.max(score, highScore));
+  public int highScore(int score, int highScore) {
+    highScore = (Math.max(score, highScore));
+    return highScore;
   }
 
 
