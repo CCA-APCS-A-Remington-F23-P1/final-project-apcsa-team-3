@@ -1,1 +1,7 @@
 cards
+naming: Number, Shading, Color, Shape
+Number: 1, 2, 3
+Shading: E (empty), Z (zebra), S(solid)
+Color: R(red), G(Green), P(Purple)
+Shape: D(diamond), S(Squiggle), O (oval)
+ex. 2EGS = 2 empty green squiggle!!!!!
