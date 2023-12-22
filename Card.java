@@ -43,7 +43,7 @@ public class Card{
   }
 
   public String toString(){
-    return(number + " " color + " " + shape + "s filled with" + fill);
+    return(number + " " + color + " " + shape + "s filled with" + fill);
   }
-  
+
 }
