@@ -41,7 +41,7 @@ public class Deck {
   }
 
   public Card deal() {
-    if (isEmpty()) {
+    if (empty()) {
       return null;
     }
     size--;
