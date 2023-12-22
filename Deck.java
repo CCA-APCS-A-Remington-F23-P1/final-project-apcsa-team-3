@@ -22,7 +22,7 @@ public class Deck {
     shuffle();
   }
 
-  public boolean isEmpty() {
+  public boolean empty() {
     return size==0;
   }
 
